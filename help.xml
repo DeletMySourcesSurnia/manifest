@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <!-- Remote names -->
+  <remote name="ME" fetch="https://github.com" />
+  <remote name="bucket" fetch="https://bitbucket.org" />
+  <!-- Using a custom CM remote to avoid editing and editing of this file -->
+  <remote name="losgit" fetch="http://github.com/LineageOS" />
+  <!-- muppets remote just in case -->
+  <remote name="tehmuppets" fetch="http://github.com/themuppets" />
+
+  
+  <!-- surnia stuff -->
+  <project path="device/motorola/surnia" name="DeletMySourcesSurnia/device_motorola_surnia" revision="oreo" remote="ME" />
+  <project path="device/motorola/msm8916-common" name="DeletMySourcesSurnia/device_motorola_msm8916-common-1" revision="oreo" remote="ME"/>
+  <project path="kernel/motorola/msm8916" name="DeletMySourcesSurnia/kernel_motorola_msm8916"  revision="oreo" remote="ME"/>
+
+  <project path="vendor/motorola" name="DeletMySourcesSurnia/proprietary_vendor_motorola" revision="oreo" remote="ME" />
+  <project path="packages/resources/devicesettings" name="android_packages_resources_devicesettings" revision="lineage-15.0" remote="losgit" />
+  <project path="external/sony/boringssl-compat" name="lineageos/android_external_sony_boringssl-compat" revision="lineage-15.0" remote="ME" />
+</manifest>
